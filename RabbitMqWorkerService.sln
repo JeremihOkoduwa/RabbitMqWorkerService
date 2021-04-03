@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqWorkerService", "RabbitMqWorkerService\RabbitMqWorkerService.csproj", "{5FE5F682-6384-4D4E-AB7A-BD2862A67C6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitWorkerService", "RabbitWorkerService\RabbitWorkerService.csproj", "{D8047AC6-619D-4E4A-B64C-38BF4D99A812}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F067B0CA-743F-4987-BBFF-B8006F0C3903}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{E790F5EC-D928-4AC9-BF27-F98830E92931}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FE5F682-6384-4D4E-AB7A-BD2862A67C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE5F682-6384-4D4E-AB7A-BD2862A67C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE5F682-6384-4D4E-AB7A-BD2862A67C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE5F682-6384-4D4E-AB7A-BD2862A67C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8047AC6-619D-4E4A-B64C-38BF4D99A812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8047AC6-619D-4E4A-B64C-38BF4D99A812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8047AC6-619D-4E4A-B64C-38BF4D99A812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8047AC6-619D-4E4A-B64C-38BF4D99A812}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FE5F682-6384-4D4E-AB7A-BD2862A67C6E} = {E790F5EC-D928-4AC9-BF27-F98830E92931}
+		{D8047AC6-619D-4E4A-B64C-38BF4D99A812} = {E790F5EC-D928-4AC9-BF27-F98830E92931}
+		{E790F5EC-D928-4AC9-BF27-F98830E92931} = {F067B0CA-743F-4987-BBFF-B8006F0C3903}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E92AE58E-DF23-402D-8C94-48A98E41AC99}
+	EndGlobalSection
+EndGlobal
